@@ -1,0 +1,49 @@
+name: Run Extractor Monthly
+
+on:
+  schedule:
+    - cron: "0 0 1 * *" # 매월 1일 00:00 UTC = 한국 시간 오전 9시
+  workflow_dispatch:
+
+jobs:
+  run-parser:
+    runs-on: ubuntu-latest
+    environment: SDN
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Create .env file from GitHub Secrets
+        run: |
+          echo "URL=${{ secrets.URL }}" >> .env
+          echo "USER_AGENT=${{ secrets.USER_AGENT }}" >> .env
+          echo "ACCEPT_HEADER=${{ secrets.ACCEPT_HEADER }}" >> .env
+
+      - name: Build TypeScript
+        run: npx tsc
+
+      - name: Run compiled script
+        run: node dist/main.js
+
+      - name: Commit and push latest output
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          [ -f output/latest.json ] && git add output/latest.json
+          find output -name "evm_wallet_blacklist_*.json" -exec git add {} +
+
+          git commit -m "🤖 Auto update on $(date -u +"%Y-%m-%dT%H:%M:%SZ")" || echo "No changes"
+          git remote set-url origin https://x-access-token:${GH_TOKEN}@github.com/${{ github.repository }}.git
+          git push
