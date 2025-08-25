@@ -3,19 +3,19 @@
     "sources": [
       {
         "source": "sdn",
-        "issuedAt": "20250821",
-        "extractedAt": "20250825",
-        "recordCount": 75
+        "issuedAt": "20250624",
+        "extractedAt": "20250627",
+        "recordCount": 68
       },
       {
         "source": "hackscan",
         "issuedAt": "unknown",
-        "extractedAt": "20250825",
+        "extractedAt": "20250627",
         "recordCount": 12039
       }
     ],
-    "extractedAt": "20250825",
-    "recordCount": 12114
+    "extractedAt": "20250627",
+    "recordCount": 12107
   },
   "data": [
     "0x098b716b8aaf21512996dc57eb0615e2383e2f96",
@@ -48,12 +48,6 @@
     "0xc455f7fd3e0e12afd51fba5c106909934d8a0e4a",
     "0xfec8a60023265364d066a1212fde3930f6ae8da7",
     "0x7ff9cfad3877f21d41da833e2f775db0569ee3d9",
-    "0x8dce2aac0de82bdcaf6b4373b79f94331b8e4995",
-    "0xf4377eda661e04b6dda78969796ed31658d602d4",
-    "0xb338962b92cd818d6aef0a32a9ecd01212a71f33",
-    "0x57ec89a0c056163a0314e413320f9b3abe761259",
-    "0xd8500c631dc32fa18645b7436344a99e4825e10e",
-    "0x7ced75026204ac29c34bea98905d4c949f27361e",
     "0xc2a3829f459b3edd87791c74cd45402ba0a20be3",
     "0x3ad9db589d201a710ed237c829c7860ba86510fc",
     "0x83e5bc4ffa856bb84bb88581f5dd62a433a25e0d",
@@ -92,7 +86,6 @@
     "0x0931ca4d13bb4ba75d9b7132ab690265d749a5e7",
     "0x1999ef52700c34de7ec2b68a28aafb37db0c5ade",
     "0xd5ed34b52ac4ab84d8fa8a231a3218bbf01ed510",
-    "0x12de548f79a50d2bd05481c8515c1ef5183666a9",
     "0x64a580612871d05c2e22d30d58fda1354bbbda6c",
     "0xc00d250eb5d3c6c10c0edbeca3ba1bd749d25b7c",
     "0xffef4634155a477a8877deef8eaff293a373d5de",
