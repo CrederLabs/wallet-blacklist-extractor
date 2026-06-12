@@ -3,19 +3,19 @@
     "sources": [
       {
         "source": "sdn",
-        "issuedAt": "20260611",
-        "extractedAt": "20260612",
-        "recordCount": 97
+        "issuedAt": "20250821",
+        "extractedAt": "20250825",
+        "recordCount": 75
       },
       {
         "source": "hackscan",
         "issuedAt": "unknown",
-        "extractedAt": "20260612",
+        "extractedAt": "20250825",
         "recordCount": 12039
       }
     ],
-    "extractedAt": "20260612",
-    "recordCount": 12136
+    "extractedAt": "20250825",
+    "recordCount": 12114
   },
   "data": [
     "0x098b716b8aaf21512996dc57eb0615e2383e2f96",
@@ -67,11 +67,6 @@
     "0x1967d8af5bd86a497fb3dd7899a020e47560daaf",
     "0x39d908dac893cbcb53cc86e0ecc369aa4def1a29",
     "0x4f47bc496083c727c5fbe3ce9cdf2b0f6496270c",
-    "0xd04e33461fea8302c5e1e13895b60cee8aefda7f",
-    "0x76ea76ca4eb727f18956ab93445a94c5280412b9",
-    "0xfb3eff152ea55d1bfa04dbdd509a80fd7b72cdeb",
-    "0xfda1ec4a6178d4916b001a065422d31ebe5f62ff",
-    "0x747afb5c7a7fc34b547cd0fdebf9b91759c5a52b",
     "0x38735f03b30fbc022ddd06abed01f0ca823c6a94",
     "0x97b1043abd9e6fc31681635166d430a458d14f9c",
     "0xb6f5ec1a0a9cd1526536d3f0426c429529471f40",
@@ -98,23 +93,6 @@
     "0x1999ef52700c34de7ec2b68a28aafb37db0c5ade",
     "0xd5ed34b52ac4ab84d8fa8a231a3218bbf01ed510",
     "0x12de548f79a50d2bd05481c8515c1ef5183666a9",
-    "0xdb2720ebad55399117ddb4c4a4afd9a4ccada8fe",
-    "0xe3d35f68383732649669aa990832e017340dbca5",
-    "0x532b77b33a040587e9fd1800088225f99b8b0e8a",
-    "0x5d5b5dafecbf31bdb08bfd3edad4f2694372d0ef",
-    "0xc103b7dc095c904b92081eef0c1640081ec01c10",
-    "0xe1e4c5e5ed8f03ae61b581e2def126025f2b9401",
-    "0xb637f84b66876ebf609c2a4208905f9ddac9d075",
-    "0x95584c303fcd48af5c6b9873015f2ad0ca84eae3",
-    "0xcb74874f1e06fcf80a306e06e5379a44b488ba2d",
-    "0x0330070fd38ec3bb94f58fa55d40368271e9e54a",
-    "0x9be599d7867f5e1a2d7ec6db9710df2b98a15573",
-    "0x038989cbb1710c72b9920dc4fa529158f463e72c",
-    "0x14779cec0b117d5194c750c55ea1f42086631964",
-    "0x32da24ca413f3e7b53145d4737e172c3bdf81e3e",
-    "0xf2235d55b2950a0b1317469d72d07ae65b2e27cb",
-    "0x4f428c11dc82388fa5136d636e613ad923eb700b",
-    "0xac4cc4b68ea24bbfaac8fd127b67ed445accce22",
     "0x64a580612871d05c2e22d30d58fda1354bbbda6c",
     "0xc00d250eb5d3c6c10c0edbeca3ba1bd749d25b7c",
     "0xffef4634155a477a8877deef8eaff293a373d5de",
